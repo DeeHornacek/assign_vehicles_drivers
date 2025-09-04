@@ -1,0 +1,362 @@
+[
+  {
+    "model": "api.vehicles",
+    "pk": 1,
+    "fields": {
+      "license_plate": "AA100AA",
+      "vehicle_type": "Semi-trailer",
+      "max_capacity": 28000.0,
+      "cost_per_km": 3.0,
+      "current_position": "Bratislava",
+      "availability_status_vehicle": true
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 2,
+    "fields": {
+      "license_plate": "AB101AB",
+      "vehicle_type": "Truck",
+      "max_capacity": 16000.0,
+      "cost_per_km": 2.5,
+      "current_position": "Kosice",
+      "availability_status_vehicle": true
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 3,
+    "fields": {
+      "license_plate": "AC102AC",
+      "vehicle_type": "Van",
+      "max_capacity": 2500.0,
+      "cost_per_km": 1.5,
+      "current_position": "Zilina",
+      "availability_status_vehicle": false
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 4,
+    "fields": {
+      "license_plate": "AD103AD",
+      "vehicle_type": "Personal Vehicle",
+      "max_capacity": 0.4,
+      "cost_per_km": 0.4,
+      "current_position": "Trnava",
+      "availability_status_vehicle": true
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 5,
+    "fields": {
+      "license_plate": "AE104AE",
+      "vehicle_type": "Semi-trailer",
+      "max_capacity": 30000.0,
+      "cost_per_km": 2.8,
+      "current_position": "Presov",
+      "availability_status_vehicle": true
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 6,
+    "fields": {
+      "license_plate": "AF105AF",
+      "vehicle_type": "Truck",
+      "max_capacity": 20000.0,
+      "cost_per_km": 2.7,
+      "current_position": "Nitra",
+      "availability_status_vehicle": true
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 7,
+    "fields": {
+      "license_plate": "AG106AG",
+      "vehicle_type": "Van",
+      "max_capacity": 2200.0,
+      "cost_per_km": 1.8,
+      "current_position": "Banska Bystrica",
+      "availability_status_vehicle": false
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 8,
+    "fields": {
+      "license_plate": "AH107AH",
+      "vehicle_type": "Personal Vehicle",
+      "max_capacity": 0.3,
+      "cost_per_km": 0.5,
+      "current_position": "Trencin",
+      "availability_status_vehicle": true
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 9,
+    "fields": {
+      "license_plate": "AI108AI",
+      "vehicle_type": "Truck",
+      "max_capacity": 18000.0,
+      "cost_per_km": 2.3,
+      "current_position": "Poprad",
+      "availability_status_vehicle": true
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 10,
+    "fields": {
+      "license_plate": "AJ109AJ",
+      "vehicle_type": "Van",
+      "max_capacity": 3000.0,
+      "cost_per_km": 2.0,
+      "current_position": "Levice",
+      "availability_status_vehicle": false
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 11,
+    "fields": {
+      "license_plate": "AK110AK",
+      "vehicle_type": "Semi-trailer",
+      "max_capacity": 27000.0,
+      "cost_per_km": 3.2,
+      "current_position": "Martin",
+      "availability_status_vehicle": true
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 12,
+    "fields": {
+      "license_plate": "AL111AL",
+      "vehicle_type": "Truck",
+      "max_capacity": 22000.0,
+      "cost_per_km": 2.6,
+      "current_position": "Zvolen",
+      "availability_status_vehicle": true
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 13,
+    "fields": {
+      "license_plate": "AM112AM",
+      "vehicle_type": "Van",
+      "max_capacity": 2800.0,
+      "cost_per_km": 1.7,
+      "current_position": "Kosice",
+      "availability_status_vehicle": false
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 14,
+    "fields": {
+      "license_plate": "AN113AN",
+      "vehicle_type": "Personal Vehicle",
+      "max_capacity": 0.5,
+      "cost_per_km": 0.3,
+      "current_position": "Komarno",
+      "availability_status_vehicle": true
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 15,
+    "fields": {
+      "license_plate": "AO114AO",
+      "vehicle_type": "Truck",
+      "max_capacity": 19000.0,
+      "cost_per_km": 2.4,
+      "current_position": "Michalovce",
+      "availability_status_vehicle": false
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 16,
+    "fields": {
+      "license_plate": "AP115AP",
+      "vehicle_type": "Semi-trailer",
+      "max_capacity": 29000.0,
+      "cost_per_km": 3.1,
+      "current_position": "Spisska Nova Ves",
+      "availability_status_vehicle": true
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 17,
+    "fields": {
+      "license_plate": "AQ116AQ",
+      "vehicle_type": "Van",
+      "max_capacity": 2400.0,
+      "cost_per_km": 1.9,
+      "current_position": "Piestany",
+      "availability_status_vehicle": true
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 18,
+    "fields": {
+      "license_plate": "AR117AR",
+      "vehicle_type": "Truck",
+      "max_capacity": 21000.0,
+      "cost_per_km": 2.9,
+      "current_position": "Kosice",
+      "availability_status_vehicle": true
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 19,
+    "fields": {
+      "license_plate": "AS118AS",
+      "vehicle_type": "Personal Vehicle",
+      "max_capacity": 0.2,
+      "cost_per_km": 0.4,
+      "current_position": "Prievidza",
+      "availability_status_vehicle": false
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 20,
+    "fields": {
+      "license_plate": "AT119AT",
+      "vehicle_type": "Semi-trailer",
+      "max_capacity": 31000.0,
+      "cost_per_km": 3.3,
+      "current_position": "Ruzomberok",
+      "availability_status_vehicle": true
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 21,
+    "fields": {
+      "license_plate": "AU120AU",
+      "vehicle_type": "Truck",
+      "max_capacity": 17000.0,
+      "cost_per_km": 2.2,
+      "current_position": "Poprad",
+      "availability_status_vehicle": true
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 22,
+    "fields": {
+      "license_plate": "AV121AV",
+      "vehicle_type": "Van",
+      "max_capacity": 2100.0,
+      "cost_per_km": 1.6,
+      "current_position": "Banska Bystrica",
+      "availability_status_vehicle": true
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 23,
+    "fields": {
+      "license_plate": "AW122AW",
+      "vehicle_type": "Semi-trailer",
+      "max_capacity": 26000.0,
+      "cost_per_km": 2.9,
+      "current_position": "Trencin",
+      "availability_status_vehicle": false
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 24,
+    "fields": {
+      "license_plate": "AX123AX",
+      "vehicle_type": "Truck",
+      "max_capacity": 24000.0,
+      "cost_per_km": 3.0,
+      "current_position": "Presov",
+      "availability_status_vehicle": true
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 25,
+    "fields": {
+      "license_plate": "AY124AY",
+      "vehicle_type": "Van",
+      "max_capacity": 2600.0,
+      "cost_per_km": 1.4,
+      "current_position": "Kosice",
+      "availability_status_vehicle": false
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 26,
+    "fields": {
+      "license_plate": "AZ125AZ",
+      "vehicle_type": "Personal Vehicle",
+      "max_capacity": 0.3,
+      "cost_per_km": 0.5,
+      "current_position": "Bratislava",
+      "availability_status_vehicle": true
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 27,
+    "fields": {
+      "license_plate": "BA126BA",
+      "vehicle_type": "Truck",
+      "max_capacity": 20000.0,
+      "cost_per_km": 2.8,
+      "current_position": "Zilina",
+      "availability_status_vehicle": true
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 28,
+    "fields": {
+      "license_plate": "BB127BB",
+      "vehicle_type": "Semi-trailer",
+      "max_capacity": 30000.0,
+      "cost_per_km": 3.4,
+      "current_position": "Nitra",
+      "availability_status_vehicle": false
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 29,
+    "fields": {
+      "license_plate": "BC128BC",
+      "vehicle_type": "Van",
+      "max_capacity": 2900.0,
+      "cost_per_km": 2.0,
+      "current_position": "Trnava",
+      "availability_status_vehicle": true
+    }
+  },
+  {
+    "model": "api.vehicles",
+    "pk": 30,
+    "fields": {
+      "license_plate": "BD129BD",
+      "vehicle_type": "Truck",
+      "max_capacity": 23000.0,
+      "cost_per_km": 2.7,
+      "current_position": "Kosice",
+      "availability_status_vehicle": true
+    }
+  }
+]

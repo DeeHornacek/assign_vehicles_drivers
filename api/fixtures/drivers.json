@@ -1,0 +1,202 @@
+[
+  {
+    "model": "api.drivers",
+    "pk": 1,
+    "fields": {
+      "name": "Jozef Novak",
+      "phone": "+421902340800",
+      "license_number": "B12345678",
+      "availability_status_driver": true
+    }
+  },
+  {
+    "model": "api.drivers",
+    "pk": 2,
+    "fields": {
+      "name": "Peter Horvath",
+      "phone": "+421902340801",
+      "license_number": "C98765432",
+      "availability_status_driver": true
+    }
+  },
+  {
+    "model": "api.drivers",
+    "pk": 3,
+    "fields": {
+      "name": "Marek Kral",
+      "phone": "+421902340802",
+      "license_number": "D19283746",
+      "availability_status_driver": true
+    }
+  },
+  {
+    "model": "api.drivers",
+    "pk": 4,
+    "fields": {
+      "name": "Tomas Svec",
+      "phone": "+421902340803",
+      "license_number": "B11122334",
+      "availability_status_driver": true
+    }
+  },
+  {
+    "model": "api.drivers",
+    "pk": 5,
+    "fields": {
+      "name": "Martin Balaz",
+      "phone": "+421902340804",
+      "license_number": "C22233445",
+      "availability_status_driver": true
+    }
+  },
+  {
+    "model": "api.drivers",
+    "pk": 6,
+    "fields": {
+      "name": "Jan Duris",
+      "phone": "+421902340805",
+      "license_number": "B33344556",
+      "availability_status_driver": true
+    }
+  },
+  {
+    "model": "api.drivers",
+    "pk": 7,
+    "fields": {
+      "name": "Miroslav Hric",
+      "phone": "+421902340806",
+      "license_number": "D44455667",
+      "availability_status_driver": false
+    }
+  },
+  {
+    "model": "api.drivers",
+    "pk": 8,
+    "fields": {
+      "name": "Lukas Benko",
+      "phone": "+421902340807",
+      "license_number": "C55566778",
+      "availability_status_driver": true
+    }
+  },
+  {
+    "model": "api.drivers",
+    "pk": 9,
+    "fields": {
+      "name": "Jakub Fiala",
+      "phone": "+421902340808",
+      "license_number": "B66677889",
+      "availability_status_driver": true
+    }
+  },
+  {
+    "model": "api.drivers",
+    "pk": 10,
+    "fields": {
+      "name": "Filip Urban",
+      "phone": "+421902340809",
+      "license_number": "D77788990",
+      "availability_status_driver": false
+    }
+  },
+  {
+    "model": "api.drivers",
+    "pk": 11,
+    "fields": {
+      "name": "Adam Kollar",
+      "phone": "+421902340810",
+      "license_number": "C88899001",
+      "availability_status_driver": true
+    }
+  },
+  {
+    "model": "api.drivers",
+    "pk": 12,
+    "fields": {
+      "name": "Ondrej Sabo",
+      "phone": "+421902340811",
+      "license_number": "B99910012",
+      "availability_status_driver": true
+    }
+  },
+  {
+    "model": "api.drivers",
+    "pk": 13,
+    "fields": {
+      "name": "Richard Polak",
+      "phone": "+421902340812",
+      "license_number": "D10111213",
+      "availability_status_driver": true
+    }
+  },
+  {
+    "model": "api.drivers",
+    "pk": 14,
+    "fields": {
+      "name": "Patrik Varga",
+      "phone": "+421902340813",
+      "license_number": "C12131415",
+      "availability_status_driver": true
+    }
+  },
+  {
+    "model": "api.drivers",
+    "pk": 15,
+    "fields": {
+      "name": "Stanislav Ondrejka",
+      "phone": "+421902340814",
+      "license_number": "B13141516",
+      "availability_status_driver": true
+    }
+  },
+  {
+    "model": "api.drivers",
+    "pk": 16,
+    "fields": {
+      "name": "Roman Kmet",
+      "phone": "+421902340815",
+      "license_number": "D14151617",
+      "availability_status_driver": false
+    }
+  },
+  {
+    "model": "api.drivers",
+    "pk": 17,
+    "fields": {
+      "name": "Daniel Pavlik",
+      "phone": "+421902340816",
+      "license_number": "C15161718",
+      "availability_status_driver": true
+    }
+  },
+  {
+    "model": "api.drivers",
+    "pk": 18,
+    "fields": {
+      "name": "David Hromada",
+      "phone": "+421902340817",
+      "license_number": "B16171819",
+      "availability_status_driver": true
+    }
+  },
+  {
+    "model": "api.drivers",
+    "pk": 19,
+    "fields": {
+      "name": "Erik Kocian",
+      "phone": "+421902340818",
+      "license_number": "D17181920",
+      "availability_status_driver": true
+    }
+  },
+  {
+    "model": "api.drivers",
+    "pk": 20,
+    "fields": {
+      "name": "Samuel Gregor",
+      "phone": "+421902340819",
+      "license_number": "C18192021",
+      "availability_status_driver": false
+    }
+  }
+]
