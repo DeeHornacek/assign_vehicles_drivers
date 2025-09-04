@@ -1,7 +1,8 @@
 # Vehicle Assignment Django Project
 
-This project is a Django REST API for managing orders, vehicles, and drivers in Slovakia.  
-It automatically assigns the most suitable vehicle and driver to an order using a weighted scoring system based on multiple criteria, currently distance to pickup (priority 70 %) and estimated travel cost (priority 30 %).
+This Django REST API allows full CRUD operations on Orders, Vehicles, and Drivers in Slovakia, 
+and automatically assigns the most suitable vehicle and driver to an order using a weighted scoring system 
+(distance 70%, cost 30%).
 ---
 
 ## Table of Contents
@@ -36,6 +37,7 @@ cd assign_vehicles_drivers
 
 2. Create and activate a virtual environment:
 ```bash
+# Note: The `.venv` directory is not included in the repository.
 python -m venv venv
 source venv/bin/activate      # Linux/macOS
 venv\Scripts\activate         # Windows
@@ -52,6 +54,7 @@ python manage.py migrate
 5. Run the development server
 ```bash
 python manage.py runserver
+# Access API at http://127.0.0.1:8000/api/
 ```
 ## Sample Data
 
@@ -64,7 +67,7 @@ You can use them to quickly populate the database with realistic test data for v
 
 ### Loading the fixtures
 
-Run the following commands from the project root:
+Run the following commands from the project root (data are stored in api\fixtures):
 
 ```bash
 python manage.py loaddata vehicles.json
@@ -82,25 +85,25 @@ python manage.py loaddata orders.json
     "assigned_driver": "Patrik Varga",
     "estimated_cost": 549.56,
     "distance_km": 219.82,
-    "reasoning": "Selected AB101AB: adequate capacity, distance: 41.29, cost: 549.56, weighted criteria applied."
+    "reasoning": "Selected AB101AB: adequate capacity, distance: 41.29 km, cost: 549.56€, weighted criteria applied."
 }
 ```
+- Distance and cost are rounded to 2 decimal numbers
+- Distance represents path from original vehicle location + order path
 
 ## Assignment Algorithm
 - Driver Filtering: Select available drivers
 - Vehicle Filtering: Select available vehicles that can carry the order weight.
 - Distance Calculation: Compute distance from vehicle to pickup and total route distance using Haversine formula.
 - Cost Estimation: Calculate estimated cost per vehicle based on distance and cost per km.
-- Vehicle Selection:
-Weighted Multi-Criteria Assignment:
-Each available vehicle is scored based on multiple criteria:
-Distance to pickup – weight 0.7
-Estimated total cost – weight 0.3
-Values are normalized to 0–1 and combined into a single score.
-Vehicle with the lowest score is selected.
-Driver is randomly selected among available drivers.
+- Vehicle Selection: Weighted Multi-Criteria Assignment
+  - Distance to pickup (normalized, weight 0.7)
+  - Estimated travel cost (normalized, weight 0.3)
+  - Vehicle with the lowest score is selected
+  - Driver is randomly selected among available drivers
 
 ## Dependencies
+All dependencies are listed in requirements.txt
 - Python 3.11+
 - Django==5.2.6
 - djangorestframework==3.16.1

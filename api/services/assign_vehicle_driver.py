@@ -131,8 +131,8 @@ class AssignVehicleDriver:
             self.result['estimated_cost'] = round(selected_vehicle['estimated_cost'], 2)
             self.result['reasoning'] = (
                 f"Selected {selected_vehicle['license_plate']}: "
-                f"adequate capacity, distance: {round(selected_vehicle['distance_to_pickup'], 2)}, "
-                f"cost: {round(selected_vehicle['estimated_cost'], 2)}, weighted criteria applied."
+                f"adequate capacity, distance: {round(selected_vehicle['distance_to_pickup'], 2)} km, "
+                f"cost: {round(selected_vehicle['estimated_cost'], 2)}€, weighted criteria applied."
             )
 
             return self.result
