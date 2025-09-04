@@ -7,7 +7,7 @@ from .serializers import OrdersSerializer, VehiclesSerializer, DriversSerializer
 from .services.assign_vehicle_driver import AssignVehicleDriver
 
 
-# CRUD cez router
+# CRUD
 class OrdersViewSet(viewsets.ModelViewSet):
     queryset = Orders.objects.all()
     serializer_class = OrdersSerializer

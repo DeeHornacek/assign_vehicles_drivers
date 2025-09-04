@@ -1,5 +1,5 @@
 """
-URL configuration for swida project.
+URL configuration for assign_vehicles_drivers project.
 """
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
