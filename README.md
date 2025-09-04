@@ -78,11 +78,11 @@ python manage.py loaddata orders.json
 
 ```json
 {
-  "assigned_vehicle": "AA100AA",
-  "assigned_driver": "John Doe",
-  "estimated_cost": 42.5,
-  "distance_km": 15.3,
-  "reasoning": "Selected AA100AA: adequate capacity, closest available: 5.2, travel costs: 42.5, chosen to save time."
+    "assigned_vehicle": "AB101AB",
+    "assigned_driver": "Patrik Varga",
+    "estimated_cost": 549.56,
+    "distance_km": 219.82,
+    "reasoning": "Selected AB101AB: adequate capacity, distance: 41.29, cost: 549.56, weighted criteria applied."
 }
 ```
 
